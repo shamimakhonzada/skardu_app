@@ -50,7 +50,7 @@ class SkdSizes {
 
   //Input field
   static const double inputFieldRadius = 12.0;
-  static const double spaceBteInputFields = 16.0;
+  static const double spaceBtwInputFields = 16.0;
 
   //Card Sizes
   static const double cardRadiusLg = 16.0;

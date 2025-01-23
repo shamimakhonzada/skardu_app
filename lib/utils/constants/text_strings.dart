@@ -28,11 +28,15 @@ class SkdStrings {
   static final String orSignInWith = "Or sign in with";
   static final String orSignUpWith = "Or sign up with";
   static final String iAgreeTo = "I agree to";
+  static final String and = "and";
   static final String privacyPolicy = "Privacy Policy";
   static final String termsOfUse = "Terms of Use";
   static final String verificationCode = "Verification Code";
   static final String resendEmail = "Resend Email";
   static final String resendEmailIn = "Resend email in";
+  static final String continueText = "Continue";
+  static final String submit = "Submit";
+  static final String done = "Done";
 
   // --authentication Heading Text
 
