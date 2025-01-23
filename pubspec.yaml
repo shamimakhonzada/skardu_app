@@ -1,0 +1,66 @@
+name: skardu_app
+description: "An online business app."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #icons
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+
+  #State Management
+  get_storage: ^2.1.1
+  get: ^4.6.6
+
+  #Utility  Packages
+  http: ^1.1.0
+  intl: ^0.18.0
+  logger: ^2.5.0
+  url_launcher: ^6.3.1
+  flutter_native_splash: ^2.4.4
+  smooth_page_indicator: ^1.2.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/logos/
+    - assets/icons/
+    - assets/fonts/
+    - assets/images/on_boarding_images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 800
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
