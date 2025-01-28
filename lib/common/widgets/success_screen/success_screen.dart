@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:skardu_app/common/styles/spacing_style.dart';
 
+import '../../../utils/constants/image_strings.dart';
 import '../../../utils/constants/sizes.dart';
 import '../../../utils/constants/text_strings.dart';
 import '../../../utils/helpers/helper_functions.dart';
@@ -27,9 +28,8 @@ class SuccessScreen extends StatelessWidget {
                 ///images
 
                 Image(
-                  height: SkdHelperFunction.screenHeight() * 0.2,
-                  width: SkdHelperFunction.screenWidth(),
-                  image: AssetImage(image),
+                  width: SkdHelperFunction.screenWidth()*0.6,
+                  image: AssetImage(SkdImage.staticSuccessIllustration),
                 ),
                 SizedBox(
                   height: SkdSizes.spaceBtwSections,

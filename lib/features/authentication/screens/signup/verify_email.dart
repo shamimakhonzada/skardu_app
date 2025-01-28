@@ -2,11 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:skardu_app/common/widgets/success_screen/success_screen.dart';
 import 'package:skardu_app/features/authentication/screens/login/login.dart';
+import 'package:skardu_app/utils/constants/image_strings.dart';
 import 'package:skardu_app/utils/constants/sizes.dart';
 import 'package:skardu_app/utils/constants/text_strings.dart';
 import 'package:skardu_app/utils/helpers/helper_functions.dart';
-
-import '../password_configuration/reset_password.dart';
 
 class VerifyEmailScreen extends StatelessWidget {
   const VerifyEmailScreen({super.key});
@@ -31,9 +30,8 @@ class VerifyEmailScreen extends StatelessWidget {
               ///Image
 
               Image(
-                height: SkdHelperFunction.screenHeight() * 0.2,
-                width: SkdHelperFunction.screenWidth(),
-                image: AssetImage('assets/images/mail.png'),
+                width: SkdHelperFunction.screenWidth() * 0.6,
+                image: AssetImage(SkdImage.deliveredEmailIllustration),
               ),
               SizedBox(
                 height: SkdSizes.spaceBtwSections,
@@ -71,7 +69,7 @@ class VerifyEmailScreen extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                     onPressed: () => (Get.to(SuccessScreen(
-                      image: "assets/images/message.png",
+                      image: SkdImage.staticSuccessIllustration,
                       title: SkdStrings.yourAccountCreatedTitle,
                       subTitle: SkdStrings.yourAccountCreatedSubTitle,
                       onPressed: () => Get.offAll(() => LoginScreen()),
