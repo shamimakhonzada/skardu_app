@@ -11,11 +11,13 @@ class SkdCircularContainer extends StatelessWidget {
     this.padding = 0,
     this.child,
     this.backgroundColor = SkdColors.white,
+    this.margin,
   });
 
   final double? height;
   final double? width;
   final double padding;
+  final EdgeInsets? margin;
   final double radius;
   final Widget? child;
   final Color backgroundColor;
@@ -25,6 +27,7 @@ class SkdCircularContainer extends StatelessWidget {
     return Container(
       width: width,
       height: height,
+      margin: margin,
       padding: EdgeInsets.all(padding),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(400),

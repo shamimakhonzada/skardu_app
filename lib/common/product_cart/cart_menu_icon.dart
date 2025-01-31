@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../utils/constants/color.dart';
+import '../../utils/helpers/helper_functions.dart';
 
 class SkdCartCounterIcon extends StatelessWidget {
   const SkdCartCounterIcon({
@@ -15,6 +16,7 @@ class SkdCartCounterIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final dark = SkdHelperFunction.isDarkMode(context);
     return Stack(
       children: [
         IconButton(
@@ -29,17 +31,14 @@ class SkdCartCounterIcon extends StatelessWidget {
             width: 18,
             height: 18,
             decoration: BoxDecoration(
-              color: Colors.black,
+              color: dark ? SkdColors.white : Colors.black,
               borderRadius: BorderRadius.circular(100),
             ),
             child: Center(
-              child: Text(
-                "2",
-                style: Theme.of(context)
-                    .textTheme
-                    .labelLarge!
-                    .apply(color: SkdColors.white, fontSizeFactor: 0.8),
-              ),
+              child: Text("2",
+                  style: Theme.of(context).textTheme.labelLarge!.apply(
+                      color: dark ? SkdColors.black : SkdColors.white,
+                      fontSizeFactor: 0.8)),
             ),
           ),
         )

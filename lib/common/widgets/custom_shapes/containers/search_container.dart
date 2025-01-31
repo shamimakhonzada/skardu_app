@@ -13,17 +13,20 @@ class SkdSearchContainer extends StatelessWidget {
     this.icon = Iconsax.search_normal,
     this.showBackground = true,
     this.showBorder = true,
+    this.padding =
+        const EdgeInsets.symmetric(horizontal: SkdSizes.defaultSpace),
   });
 
   final String text;
   final IconData? icon;
   final bool showBackground, showBorder;
+  final EdgeInsetsGeometry padding;
 
   @override
   Widget build(BuildContext context) {
     final dark = SkdHelperFunction.isDarkMode(context);
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: SkdSizes.defaultSpace),
+      padding: padding,
       child: Container(
           width: SkdDeviceUtils.getScreenWidth(),
           padding: EdgeInsets.all(SkdSizes.md),
