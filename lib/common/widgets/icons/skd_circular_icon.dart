@@ -6,7 +6,7 @@ import '../../../utils/constants/sizes.dart';
 class SkdCircularIcon extends StatelessWidget {
   const SkdCircularIcon({
     super.key,
-    required this.dark,
+    this.dark = false,
     this.width,
     this.height,
     this.size = SkdSizes.lg,

@@ -8,10 +8,8 @@ import 'package:skardu_app/utils/constants/sizes.dart';
 
 import '../../../common/product_cart/cart_menu_icon.dart';
 import '../../../common/widgets/appbar/appbar.dart';
-import '../../../common/widgets/brand/brand_show_case.dart';
 import '../../../common/widgets/brand/category_tab.dart';
 import '../../../utils/constants/color.dart';
-import '../../../utils/constants/image_strings.dart';
 import '../../../utils/helpers/helper_functions.dart';
 
 class StoreScreen extends StatelessWidget {

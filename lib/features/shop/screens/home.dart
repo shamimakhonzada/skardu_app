@@ -56,7 +56,8 @@ class HomeScreen extends StatelessWidget {
                         SkdHomeCategories()
                       ],
                     ),
-                  )
+                  ),
+                  SizedBox(height: SkdSizes.spaceBtwSections)
                 ],
               ),
             ),

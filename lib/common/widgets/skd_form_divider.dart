@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:skardu_app/utils/helpers/helper_functions.dart';
 
 import '../../utils/constants/color.dart';
-import '../../utils/constants/text_strings.dart';
 
 class SkdFormDivider extends StatelessWidget {
   const SkdFormDivider({

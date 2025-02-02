@@ -15,18 +15,23 @@ class SkdPrimaryHeaderContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SkdCurvedEdgesWidgets(
-      child: SizedBox(
-        height: 400,
-        child: Container(
-          color: SkdColors.primary,
-          child: Stack(
-            children: [
-              // -- Background Custom Shapes
-              Positioned(top: -150, right: -250, child: SkdCircularContainer(backgroundColor: Colors.white.withValues(alpha: 0.1))),
-              Positioned(top: 100, right: -300, child: SkdCircularContainer(backgroundColor: Colors.white.withValues(alpha: 0.1))),
-              child,
-            ],
-          ),
+      child: Container(
+        color: SkdColors.primary,
+        child: Stack(
+          children: [
+            // -- Background Custom Shapes
+            Positioned(
+                top: -150,
+                right: -250,
+                child: SkdCircularContainer(
+                    backgroundColor: Colors.white.withValues(alpha: 0.1))),
+            Positioned(
+                top: 100,
+                right: -300,
+                child: SkdCircularContainer(
+                    backgroundColor: Colors.white.withValues(alpha: 0.1))),
+            child,
+          ],
         ),
       ),
     );

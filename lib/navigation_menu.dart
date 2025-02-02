@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:skardu_app/features/personalization/screens/settings/setting.dart';
 import 'package:skardu_app/features/shop/screens/home.dart';
 import 'package:skardu_app/features/shop/screens/store.dart';
 import 'package:skardu_app/utils/constants/color.dart';
 import 'package:skardu_app/utils/helpers/helper_functions.dart';
+
+import 'features/shop/screens/wishlist/wishlist.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
@@ -45,11 +48,7 @@ class NavigationController extends GetxController {
   final screens = [
     HomeScreen(),
     StoreScreen(),
-    Container(
-      color: Colors.deepPurple,
-    ),
-    Container(
-      color: Colors.orange,
-    )
+    FavouriteScreen(),
+    SettingsScreen()
   ];
 }

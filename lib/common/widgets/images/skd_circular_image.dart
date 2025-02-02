@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
 import '../../../utils/constants/color.dart';
-import '../../../utils/constants/image_strings.dart';
 import '../../../utils/constants/sizes.dart';
 import '../../../utils/helpers/helper_functions.dart';
 
@@ -40,8 +39,8 @@ class SkdCircularImage extends StatelessWidget {
         child: Image(
           fit: fit,
           image: isNetworkImage
-              ? NetworkImage(image)
-              : AssetImage(SkdImage.clothIcon),
+              ? NetworkImage('')
+              : AssetImage(image),
           color: overlayColor,
         ),
       ),
