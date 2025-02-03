@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
+import '../../../features/personalization/screens/profile/profile_screen.dart';
 import '../../../utils/constants/color.dart';
 import '../../../utils/constants/image_strings.dart';
 import '../images/skd_circular_image.dart';
@@ -30,7 +32,7 @@ class SkdUserProfileTile extends StatelessWidget {
             .apply(color: SkdColors.white),
       ),
       trailing: IconButton(
-          onPressed: () {},
+          onPressed: () => Get.to(() => const ProfileScreen()),
           icon: Icon(
             Iconsax.edit,
             color: SkdColors.white,

@@ -39,7 +39,7 @@ class SkdCircularImage extends StatelessWidget {
         child: Image(
           fit: fit,
           image: isNetworkImage
-              ? NetworkImage('')
+              ? NetworkImage(image)
               : AssetImage(image),
           color: overlayColor,
         ),
