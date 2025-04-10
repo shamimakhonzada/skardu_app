@@ -1,0 +1,2 @@
+C:/Users/Shamim/AndroidStudioProjects/skardu_app/android/app/.cxx/Debug/2y4i4e1y/x86/CMakeFiles/edit_cache.dir
+C:/Users/Shamim/AndroidStudioProjects/skardu_app/android/app/.cxx/Debug/2y4i4e1y/x86/CMakeFiles/rebuild_cache.dir
