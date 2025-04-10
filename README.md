@@ -1,16 +1,19 @@
-# skardu_app
+🛍️ Skardu App
+A sleek front-end e-commerce application built using Flutter, designed to showcase a modern UI for online shopping. While this version focuses on the front-end only, it lays the foundation for a full-featured shopping experience.
 
-A new Flutter project.
+👨‍💻 About Me
+Hey there! I'm Muhammad Shamim Shoaib, a Computer Science student and passionate mobile app developer. This project is part of my learning journey into Flutter UI/UX design, where I focused on creating clean layouts, reusable components, and responsive design elements that mimic a real e-commerce experience.
 
-## Getting Started
+What I learned and applied in this project:
 
-This project is a starting point for a Flutter application.
+Building responsive UI using Flutter widgets
 
-A few resources to get you started if this is your first Flutter project:
+Creating a product catalog layout
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Organizing code using clean structure and best practices
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Enhancing design through styling and user-centric components
+
+This project reflects my growing interest in Flutter development, especially in building smooth, intuitive interfaces. I'm planning to integrate the backend in the future to make this a fully functional shopping app!
+
+📫 Connect with me on LinkedIn or reach me via shamim.akhonzada@gmail.com
